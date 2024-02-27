@@ -5,7 +5,11 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3000E358-E819-4B88-9F79-35369F490DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Singleton\Singleton.csproj", "{E847096E-E885-4471-90BB-602A41323C10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "src\Singleton\Singleton.csproj", "{E847096E-E885-4471-90BB-602A41323C10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "src\AbstractFactory\AbstractFactory.csproj", "{BCB14EB6-94CC-4AE4-99FD-D8E6A6EE25D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{66FE852F-9677-41E3-A789-40FAC815907E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,22 @@ Global
 		{E847096E-E885-4471-90BB-602A41323C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E847096E-E885-4471-90BB-602A41323C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E847096E-E885-4471-90BB-602A41323C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB14EB6-94CC-4AE4-99FD-D8E6A6EE25D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB14EB6-94CC-4AE4-99FD-D8E6A6EE25D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB14EB6-94CC-4AE4-99FD-D8E6A6EE25D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB14EB6-94CC-4AE4-99FD-D8E6A6EE25D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FE852F-9677-41E3-A789-40FAC815907E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FE852F-9677-41E3-A789-40FAC815907E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FE852F-9677-41E3-A789-40FAC815907E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FE852F-9677-41E3-A789-40FAC815907E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E847096E-E885-4471-90BB-602A41323C10} = {3000E358-E819-4B88-9F79-35369F490DF8}
+		{BCB14EB6-94CC-4AE4-99FD-D8E6A6EE25D1} = {3000E358-E819-4B88-9F79-35369F490DF8}
+		{66FE852F-9677-41E3-A789-40FAC815907E} = {3000E358-E819-4B88-9F79-35369F490DF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E4242F2-2117-4892-9754-E76AF1E58041}
