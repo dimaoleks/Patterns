@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{1CC11338-C6F4-4252-9F5F-445EA536EC41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "src\Structural\Adapter\Adapter.csproj", "{5BB62AD6-AF6C-46EB-83FF-BC30B80677ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{8AADADC8-D491-483A-BCB1-F778E287FA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AADADC8-D491-483A-BCB1-F778E287FA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AADADC8-D491-483A-BCB1-F778E287FA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB62AD6-AF6C-46EB-83FF-BC30B80677ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB62AD6-AF6C-46EB-83FF-BC30B80677ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB62AD6-AF6C-46EB-83FF-BC30B80677ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB62AD6-AF6C-46EB-83FF-BC30B80677ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{49F6877B-D6E5-4B98-8F6E-A2CD817009D6} = {3000E358-E819-4B88-9F79-35369F490DF8}
 		{278E0557-E23F-4F11-BA6D-F802574B7301} = {3000E358-E819-4B88-9F79-35369F490DF8}
 		{1CC11338-C6F4-4252-9F5F-445EA536EC41} = {3000E358-E819-4B88-9F79-35369F490DF8}
+		{5BB62AD6-AF6C-46EB-83FF-BC30B80677ED} = {278E0557-E23F-4F11-BA6D-F802574B7301}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E4242F2-2117-4892-9754-E76AF1E58041}
