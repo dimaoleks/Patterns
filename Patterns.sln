@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "src\Structural\Br
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "src\Structural\Composite\Composite.csproj", "{AEBC225B-8350-4766-B261-07A71E31BEDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "src\Structural\Decorator\Decorator.csproj", "{3EE673CB-AA5D-42C9-89AC-64D014E56CBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "src\Structural\Decorator\Decorator.csproj", "{3EE673CB-AA5D-42C9-89AC-64D014E56CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "src\Structural\Facade\Facade.csproj", "{64518785-AB59-4B86-B1ED-3FD18656A3E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "src\Structural\Facade\Facade.csproj", "{64518785-AB59-4B86-B1ED-3FD18656A3E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "src\Structural\Flyweight\Flyweight.csproj", "{56302E4D-57F5-40DC-9E84-8E2DC0D203B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{64518785-AB59-4B86-B1ED-3FD18656A3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64518785-AB59-4B86-B1ED-3FD18656A3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64518785-AB59-4B86-B1ED-3FD18656A3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56302E4D-57F5-40DC-9E84-8E2DC0D203B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56302E4D-57F5-40DC-9E84-8E2DC0D203B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56302E4D-57F5-40DC-9E84-8E2DC0D203B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56302E4D-57F5-40DC-9E84-8E2DC0D203B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{AEBC225B-8350-4766-B261-07A71E31BEDE} = {278E0557-E23F-4F11-BA6D-F802574B7301}
 		{3EE673CB-AA5D-42C9-89AC-64D014E56CBE} = {278E0557-E23F-4F11-BA6D-F802574B7301}
 		{64518785-AB59-4B86-B1ED-3FD18656A3E8} = {278E0557-E23F-4F11-BA6D-F802574B7301}
+		{56302E4D-57F5-40DC-9E84-8E2DC0D203B7} = {278E0557-E23F-4F11-BA6D-F802574B7301}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E4242F2-2117-4892-9754-E76AF1E58041}
