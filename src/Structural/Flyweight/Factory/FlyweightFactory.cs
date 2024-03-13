@@ -12,10 +12,8 @@ public class FlyweightFactory
             return value;
         }
 
-        var car = new Car(key);
+        _values.Add(key, new Car(key));
 
-        _values.Add(key, car);
-
-        return car;
+        return _values[key];
     }
 }
