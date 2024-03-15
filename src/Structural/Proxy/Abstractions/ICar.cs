@@ -2,5 +2,6 @@
 
 public interface ICar
 {
-    void Drive();
+    string Name { get; }
+    decimal Price { get; }
 }

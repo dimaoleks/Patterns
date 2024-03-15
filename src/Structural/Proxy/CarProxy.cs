@@ -2,22 +2,16 @@
 
 namespace Proxy;
 
-public sealed class CarProxy : ICar
+public sealed class CarProxy(CarDatabase db) : ICarDb
 {
-    private RealCar _realCar;
-    private string _model;
+    private readonly CarDatabase _db = db;
 
-    public CarProxy(string model)
+    private IEnumerable<ICar> _cars;
+
+    public IEnumerable<ICar> GetCars()
     {
-        _model = model;
-    }
-
-    public void Drive()
-    {
-        _realCar ??= new RealCar(_model);
-
-        Console.WriteLine($"Proxy is controlling access to {_model} car");
-
-        _realCar.Drive();
+        _cars ??= _db.GetCars();
+    
+        return _cars;
     }
 }
