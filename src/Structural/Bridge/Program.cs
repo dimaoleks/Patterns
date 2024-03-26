@@ -12,3 +12,4 @@ owner.ChangeFactory(new JapaneseFactory());
 car = owner.Do();
 
 car.Go();
+
